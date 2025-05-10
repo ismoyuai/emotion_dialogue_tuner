@@ -483,6 +483,6 @@ emotion_dialogue_tuner/
 
 ---
 
-**免责声明:** 本README根据提供的分析材料通过AI整理而成。所有路径、API密钥和具体参数请根据您自己的实际环境和需求进行修改。在执行任何命令前，请确保已备份重要数据。
+**免责声明:** 本README根据个人编写的项目操作教程然后通过AI分析整理而成。所有路径、API密钥和具体参数请根据您自己的实际环境和需求进行修改。在执行任何命令前，请确保已备份重要数据。
 
-如有问题可以查看本人原教程地址：[【项目实战】大模型微调-情绪对话模型](https://blog.ismoyu.cn/xiang-mu-shi-zhan-da-mo-xing-wei-diao-qing-xu-dui-hua-mo-xing/)
+如有问题或者相应更详细的教程可以查看本人原教程地址：[【项目实战】大模型微调-情绪对话模型](https://blog.ismoyu.cn/xiang-mu-shi-zhan-da-mo-xing-wei-diao-qing-xu-dui-hua-mo-xing/)
