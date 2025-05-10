@@ -1,0 +1,6 @@
+API:
+  ZHIPU_API_KEY: "你的apikey"  # 敏感信息隔离
+  MODEL_NAME: "glm-3-turbo"
+
+PATHS:
+  EMBEDDING_MODEL: "E:/xuexiziliao/AiProject/emotion_dialogue_tuner/embedding_model/text2vec-base-chinese-sentence"

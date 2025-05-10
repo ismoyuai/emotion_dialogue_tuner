@@ -1,0 +1,15 @@
+# requirements.txt
+
+# 核心依赖
+zhipuai>=0.2.0            # 智谱AI官方SDK
+sentence-transformers>=2.2.2  # 句子嵌入模型
+numpy>=1.23.5             # 数值计算
+PyYAML>=6.0               # YAML配置文件解析
+
+# 深度学习框架（sentence-transformers的依赖）
+torch>=2.0.1              # PyTorch核心库
+transformers>=4.30.2      # Hugging Face模型库
+
+# 可选依赖（根据实际需要）
+tqdm>=4.65.0              # 进度条显示（如果后续扩展训练功能）
+loguru>=0.7.0             # 更友好的日志记录（如果添加日志模块）

@@ -1,0 +1,18 @@
+emotion_dialogue_tuner/
+├── config/                         # 配置文件
+│   ├── settings.yaml               # API密钥等敏感配置
+│   └── style_config.json           # 风格模板配置
+├── data/
+│   ├── LCCC-base-split/            # 公开原始数据集
+│   ├── cleaned_output.txt          # 处理后用户对话数据
+├── embedding_model/                # embedding模型路径
+├── outputs/                        # 生成数据保存目录
+├── src/
+│   ├── data_generator.py           # 数据生成核心逻辑
+│   ├── utils/
+│   │   ├── chat_template_utils.py  # 模型对话模板转换模块
+│   │   ├── config_loader.py        # 配置加载模块
+│   │   ├── data_convert.py         # 训练数据格式转换模块
+│   │   ├── data_extraction.py      # 提取清洗数据模块
+│   │   └── validator.py            # 回复质量校验
+└── main.py                         # 主执行入口
